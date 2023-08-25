@@ -1,0 +1,72 @@
+body{
+background-color: rgb(99, 97, 97);
+padding: 30px;
+background-image: url(./images/nikebackground.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+}
+
+a{
+    padding: 25px;    
+    color: white;
+    text-align: center;
+}
+#hfirst{
+    color: white;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0),-5px -5px 5px rgb(252, 252, 252);
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+#hfirst::before{
+    content: "✔";
+}
+#a1:hover{
+    color: hsl(56, 100%, 53%);
+    font-size: larger;
+}
+#a2:hover{
+    color: hsl(120, 78%, 49%);
+    font-size: larger;
+}
+#a3:hover{
+    color: rgb(245, 50, 212);
+    font-size: larger;
+}
+#a4:hover{
+    color: rgb(214, 12, 12);
+    font-size: larger;
+}
+.homebar{
+    text-align: center;
+    font-style: italic;
+}
+#img{
+    float: left;
+    display: block;
+    margin-right:15px;
+}
+.nike p{
+    padding-right: 25px;
+    color: hsl(0, 35%, 92%);
+}
+.products{
+    color: hsl(0, 35%, 92%);
+}
+.products dt{
+    font-size: larger;
+    padding-bottom: 15px;
+}
+.products dt:hover{
+    color: blue;
+}
+h1::first-letter{
+    font-size:50px
+}
+* ::selection{
+    background-color: rgb(31, 179, 110);
+    color: black;
+}
+
